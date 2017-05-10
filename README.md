@@ -7,14 +7,7 @@ Contributors: John Malatras, Stevie Thompson, Patrick Rische, Traemani Hawkins. 
 
 Build failing due to Swift 2 -> Swift 3 incompatibilities. 
 
-Near Me
 ![Screenshot 1](http://imgur.com/06KyCRy.png)
-
-Map View
 ![Screenshot 2](http://imgur.com/YSBAY9D.png)
-
-Venue Info
 ![Screenshot 3](http://imgur.com/TJWh3Wc.png)
-
-Popular/Specials
 ![Screenshot 4](http://imgur.com/SQfmWBt.png)
