@@ -3,3 +3,5 @@
 
 Original repo was under company account. Migrated to personal account here on 5/10/2017 for display.
 Contributors: John Malatras, Stevie Thompson, Patrick Rische, Traemani Hawkins. Creator/owner marked on source code files.
+
+Build failing due to Swift 2 -> Swift 3 incompatibilities. 
