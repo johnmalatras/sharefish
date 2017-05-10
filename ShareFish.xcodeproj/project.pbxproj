@@ -1,0 +1,851 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5238550C1D22AA9B00CA1BE6 /* RequestDemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5238550B1D22AA9B00CA1BE6 /* RequestDemCell.swift */; };
+		5243CEBD1CA9D30C00DED4B7 /* MerchantThirdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5243CEBC1CA9D30C00DED4B7 /* MerchantThirdCell.swift */; };
+		5243CEC01CA9D31D00DED4B7 /* MerchantFourthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5243CEBF1CA9D31D00DED4B7 /* MerchantFourthCell.swift */; };
+		5243CEC21CA9D33500DED4B7 /* MerchantFifthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5243CEC11CA9D33500DED4B7 /* MerchantFifthCell.swift */; };
+		524509C21C6C55DA0072ACDB /* ChooseCollegeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524509C11C6C55DA0072ACDB /* ChooseCollegeViewController.swift */; };
+		524D6ABD1CA6DFDD003CFD74 /* MerchantMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D6ABC1CA6DFDD003CFD74 /* MerchantMainViewController.swift */; };
+		524D6AC41CA6F9C3003CFD74 /* MerchantSpecialCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D6AC31CA6F9C3003CFD74 /* MerchantSpecialCell.swift */; };
+		5250E07B1C419B92000F0BDC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5250E0751C419B92000F0BDC /* Bolts.framework */; };
+		5250E07C1C419B92000F0BDC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5250E0761C419B92000F0BDC /* Parse.framework */; };
+		5250E07D1C419B92000F0BDC /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5250E0771C419B92000F0BDC /* ParseFacebookUtils.framework */; };
+		5250E07E1C419B92000F0BDC /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5250E0781C419B92000F0BDC /* ParseFacebookUtilsV4.framework */; };
+		5250E07F1C419B92000F0BDC /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5250E0791C419B92000F0BDC /* ParseTwitterUtils.framework */; };
+		5250E0801C419B92000F0BDC /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5250E07A1C419B92000F0BDC /* ParseUI.framework */; };
+		5250E0821C419CF6000F0BDC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5250E0811C419CF6000F0BDC /* libz.tbd */; };
+		5250E0841C419D04000F0BDC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5250E0831C419D04000F0BDC /* libsqlite3.tbd */; };
+		5250E0861C41A060000F0BDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5250E0851C41A060000F0BDC /* Assets.xcassets */; };
+		5250E08C1C4357C8000F0BDC /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5250E0891C4357C8000F0BDC /* FBSDKCoreKit.framework */; };
+		5250E08D1C4357C8000F0BDC /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5250E08A1C4357C8000F0BDC /* FBSDKLoginKit.framework */; };
+		5250E08E1C4357C8000F0BDC /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5250E08B1C4357C8000F0BDC /* FBSDKShareKit.framework */; };
+		52654B031D1F3139006EC394 /* NearMeFreeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52654B021D1F3139006EC394 /* NearMeFreeCell.swift */; };
+		526999451C5C0C1B00C9C95E /* NearMeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526999441C5C0C1A00C9C95E /* NearMeListViewController.swift */; };
+		526D02881C5BCCF900D8BC02 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526D02871C5BCCF900D8BC02 /* LoginViewController.swift */; };
+		526D028A1C5BD1DF00D8BC02 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526D02891C5BD1DF00D8BC02 /* SignUpViewController.swift */; };
+		5277CD2C1C6547270010BA23 /* SignUpPg1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5277CD2B1C6547270010BA23 /* SignUpPg1ViewController.swift */; };
+		5277CD2E1C6548F50010BA23 /* SignUpPg2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5277CD2D1C6548F50010BA23 /* SignUpPg2ViewController.swift */; };
+		5286881D1CEBFB8900CA87A0 /* MerchantSixthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5286881C1CEBFB8900CA87A0 /* MerchantSixthCell.swift */; };
+		52B26A261BF81CCB00C95A1D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B26A251BF81CCB00C95A1D /* AudioToolbox.framework */; };
+		52B26A281BF81CD300C95A1D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B26A271BF81CD300C95A1D /* CFNetwork.framework */; };
+		52B26A2A1BF81CDD00C95A1D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B26A291BF81CDD00C95A1D /* CoreGraphics.framework */; };
+		52B26A2C1BF81CE400C95A1D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B26A2B1BF81CE400C95A1D /* CoreLocation.framework */; };
+		52B26A2E1BF81CEF00C95A1D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B26A2D1BF81CEF00C95A1D /* QuartzCore.framework */; };
+		52B26A301BF81CF900C95A1D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B26A2F1BF81CF900C95A1D /* Security.framework */; };
+		52B26A341BF81D0E00C95A1D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B26A331BF81D0E00C95A1D /* SystemConfiguration.framework */; };
+		52D6CB811C65364700C90D2A /* SignUpChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D6CB801C65364700C90D2A /* SignUpChoiceViewController.swift */; };
+		52F7A7FB1C66EDCC008EC124 /* NearMeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F7A7FA1C66EDCC008EC124 /* NearMeCell.swift */; };
+		622C95831BC8A8B7003CB344 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622C95821BC8A8B7003CB344 /* AppDelegate.swift */; };
+		622C958D1BC8A8B8003CB344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 622C958B1BC8A8B8003CB344 /* LaunchScreen.storyboard */; };
+		622C95981BC8A8B8003CB344 /* ShareFishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622C95971BC8A8B8003CB344 /* ShareFishTests.swift */; };
+		622C95A31BC8A8B8003CB344 /* ShareFishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622C95A21BC8A8B8003CB344 /* ShareFishUITests.swift */; };
+		771ECEBA1C65ABAE009505E4 /* SpecialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771ECEB91C65ABAE009505E4 /* SpecialsViewController.swift */; };
+		771ECEBC1C65ABCA009505E4 /* SpecialsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771ECEBB1C65ABCA009505E4 /* SpecialsCell.swift */; };
+		77FE76F71C65989D00324C08 /* UberRides.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FE76F21C65988A00324C08 /* UberRides.framework */; };
+		77FE76F81C6598AA00324C08 /* UberRides.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FE76F21C65988A00324C08 /* UberRides.framework */; };
+		77FE76F91C6598AA00324C08 /* UberRides.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 77FE76F21C65988A00324C08 /* UberRides.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		77FE76FE1C659E3D00324C08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FE76FD1C659E3D00324C08 /* UIKit.framework */; };
+		CDAE556B1CB9D872001C9E48 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAE556A1CB9D872001C9E48 /* libGoogleAnalyticsServices.a */; };
+		CDAE556C1CB9D872001C9E48 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAE556A1CB9D872001C9E48 /* libGoogleAnalyticsServices.a */; };
+		CDAE556D1CB9D872001C9E48 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAE556A1CB9D872001C9E48 /* libGoogleAnalyticsServices.a */; };
+		CDAE55791CB9DBD5001C9E48 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAE55781CB9DBD5001C9E48 /* CoreData.framework */; };
+		F09B9D251C66DEC2005FC3CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09B9D241C66DEC2005FC3CC /* Main.storyboard */; };
+		F09DDEC01C4AD4BF00B41431 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DDEBF1C4AD4BF00B41431 /* MapViewController.swift */; };
+		F09DDEC21C4AD50B00B41431 /* ShareFishPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DDEC11C4AD50B00B41431 /* ShareFishPin.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		622C95941BC8A8B8003CB344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 622C95771BC8A8B7003CB344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 622C957E1BC8A8B7003CB344;
+			remoteInfo = ShareFish;
+		};
+		622C959F1BC8A8B8003CB344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 622C95771BC8A8B7003CB344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 622C957E1BC8A8B7003CB344;
+			remoteInfo = ShareFish;
+		};
+		77FE76F11C65988A00324C08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77FE76EC1C65988900324C08 /* UberRides.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AC0404751BFACD1D00AC1501;
+			remoteInfo = UberRides;
+		};
+		77FE76F31C65988A00324C08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77FE76EC1C65988900324C08 /* UberRides.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AC04047F1BFACD1D00AC1501;
+			remoteInfo = UberRidesTests;
+		};
+		77FE76F51C65989300324C08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77FE76EC1C65988900324C08 /* UberRides.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0404741BFACD1D00AC1501;
+			remoteInfo = UberRides;
+		};
+		77FE76FA1C6598AA00324C08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77FE76EC1C65988900324C08 /* UberRides.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0404741BFACD1D00AC1501;
+			remoteInfo = UberRides;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		77FE76FC1C6598AB00324C08 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				77FE76F91C6598AA00324C08 /* UberRides.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5238550B1D22AA9B00CA1BE6 /* RequestDemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestDemCell.swift; sourceTree = "<group>"; };
+		5243CEBC1CA9D30C00DED4B7 /* MerchantThirdCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MerchantThirdCell.swift; sourceTree = "<group>"; };
+		5243CEBF1CA9D31D00DED4B7 /* MerchantFourthCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MerchantFourthCell.swift; sourceTree = "<group>"; };
+		5243CEC11CA9D33500DED4B7 /* MerchantFifthCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MerchantFifthCell.swift; sourceTree = "<group>"; };
+		524509C11C6C55DA0072ACDB /* ChooseCollegeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseCollegeViewController.swift; sourceTree = "<group>"; };
+		524D6ABC1CA6DFDD003CFD74 /* MerchantMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MerchantMainViewController.swift; sourceTree = "<group>"; };
+		524D6AC31CA6F9C3003CFD74 /* MerchantSpecialCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MerchantSpecialCell.swift; sourceTree = "<group>"; };
+		5250E0751C419B92000F0BDC /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		5250E0761C419B92000F0BDC /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		5250E0771C419B92000F0BDC /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		5250E0781C419B92000F0BDC /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		5250E0791C419B92000F0BDC /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		5250E07A1C419B92000F0BDC /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		5250E0811C419CF6000F0BDC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		5250E0831C419D04000F0BDC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		5250E0851C41A060000F0BDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5250E0891C4357C8000F0BDC /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		5250E08A1C4357C8000F0BDC /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		5250E08B1C4357C8000F0BDC /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		5250E08F1C435A21000F0BDC /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "../Bridging-Header.h"; sourceTree = "<group>"; };
+		52654B021D1F3139006EC394 /* NearMeFreeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearMeFreeCell.swift; sourceTree = "<group>"; };
+		526999441C5C0C1A00C9C95E /* NearMeListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearMeListViewController.swift; sourceTree = "<group>"; };
+		526D02871C5BCCF900D8BC02 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		526D02891C5BD1DF00D8BC02 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5277CD2B1C6547270010BA23 /* SignUpPg1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpPg1ViewController.swift; sourceTree = "<group>"; };
+		5277CD2D1C6548F50010BA23 /* SignUpPg2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpPg2ViewController.swift; sourceTree = "<group>"; };
+		5286881C1CEBFB8900CA87A0 /* MerchantSixthCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MerchantSixthCell.swift; sourceTree = "<group>"; };
+		52B26A251BF81CCB00C95A1D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		52B26A271BF81CD300C95A1D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		52B26A291BF81CDD00C95A1D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		52B26A2B1BF81CE400C95A1D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		52B26A2D1BF81CEF00C95A1D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		52B26A2F1BF81CF900C95A1D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		52B26A331BF81D0E00C95A1D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		52D6CB801C65364700C90D2A /* SignUpChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpChoiceViewController.swift; sourceTree = "<group>"; };
+		52F7A7FA1C66EDCC008EC124 /* NearMeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearMeCell.swift; sourceTree = "<group>"; };
+		622C957F1BC8A8B7003CB344 /* ShareFish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareFish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		622C95821BC8A8B7003CB344 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		622C958C1BC8A8B8003CB344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		622C958E1BC8A8B8003CB344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		622C95931BC8A8B8003CB344 /* ShareFishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareFishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		622C95971BC8A8B8003CB344 /* ShareFishTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareFishTests.swift; sourceTree = "<group>"; };
+		622C95991BC8A8B8003CB344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		622C959E1BC8A8B8003CB344 /* ShareFishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareFishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		622C95A21BC8A8B8003CB344 /* ShareFishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareFishUITests.swift; sourceTree = "<group>"; };
+		622C95A41BC8A8B8003CB344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		771ECEB91C65ABAE009505E4 /* SpecialsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialsViewController.swift; sourceTree = "<group>"; };
+		771ECEBB1C65ABCA009505E4 /* SpecialsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialsCell.swift; sourceTree = "<group>"; };
+		77FE76EC1C65988900324C08 /* UberRides.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = UberRides.xcodeproj; sourceTree = "<group>"; };
+		77FE76FD1C659E3D00324C08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CDAE556A1CB9D872001C9E48 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		CDAE556E1CB9D8DD001C9E48 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		CDAE556F1CB9D8DD001C9E48 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		CDAE55701CB9D8DD001C9E48 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
+		CDAE55711CB9D8DD001C9E48 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		CDAE55721CB9D8DD001C9E48 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		CDAE55731CB9D8DD001C9E48 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		CDAE55741CB9D8DD001C9E48 /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		CDAE55751CB9D8DD001C9E48 /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		CDAE55761CB9D8DD001C9E48 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		CDAE55771CB9D8DD001C9E48 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		CDAE55781CB9DBD5001C9E48 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F09B9D241C66DEC2005FC3CC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F09DDEBF1C4AD4BF00B41431 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F09DDEC11C4AD50B00B41431 /* ShareFishPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareFishPin.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		622C957C1BC8A8B7003CB344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B26A341BF81D0E00C95A1D /* SystemConfiguration.framework in Frameworks */,
+				CDAE55791CB9DBD5001C9E48 /* CoreData.framework in Frameworks */,
+				52B26A261BF81CCB00C95A1D /* AudioToolbox.framework in Frameworks */,
+				77FE76FE1C659E3D00324C08 /* UIKit.framework in Frameworks */,
+				77FE76F71C65989D00324C08 /* UberRides.framework in Frameworks */,
+				52B26A2C1BF81CE400C95A1D /* CoreLocation.framework in Frameworks */,
+				5250E0841C419D04000F0BDC /* libsqlite3.tbd in Frameworks */,
+				5250E0821C419CF6000F0BDC /* libz.tbd in Frameworks */,
+				5250E08D1C4357C8000F0BDC /* FBSDKLoginKit.framework in Frameworks */,
+				5250E08C1C4357C8000F0BDC /* FBSDKCoreKit.framework in Frameworks */,
+				5250E0801C419B92000F0BDC /* ParseUI.framework in Frameworks */,
+				5250E07E1C419B92000F0BDC /* ParseFacebookUtilsV4.framework in Frameworks */,
+				52B26A301BF81CF900C95A1D /* Security.framework in Frameworks */,
+				77FE76F81C6598AA00324C08 /* UberRides.framework in Frameworks */,
+				52B26A2E1BF81CEF00C95A1D /* QuartzCore.framework in Frameworks */,
+				5250E07C1C419B92000F0BDC /* Parse.framework in Frameworks */,
+				5250E07F1C419B92000F0BDC /* ParseTwitterUtils.framework in Frameworks */,
+				5250E08E1C4357C8000F0BDC /* FBSDKShareKit.framework in Frameworks */,
+				52B26A2A1BF81CDD00C95A1D /* CoreGraphics.framework in Frameworks */,
+				5250E07D1C419B92000F0BDC /* ParseFacebookUtils.framework in Frameworks */,
+				CDAE556B1CB9D872001C9E48 /* libGoogleAnalyticsServices.a in Frameworks */,
+				5250E07B1C419B92000F0BDC /* Bolts.framework in Frameworks */,
+				52B26A281BF81CD300C95A1D /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		622C95901BC8A8B8003CB344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAE556C1CB9D872001C9E48 /* libGoogleAnalyticsServices.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		622C959B1BC8A8B8003CB344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAE556D1CB9D872001C9E48 /* libGoogleAnalyticsServices.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5250E0741C419B40000F0BDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5250E0891C4357C8000F0BDC /* FBSDKCoreKit.framework */,
+				5250E08A1C4357C8000F0BDC /* FBSDKLoginKit.framework */,
+				5250E08B1C4357C8000F0BDC /* FBSDKShareKit.framework */,
+				5250E0831C419D04000F0BDC /* libsqlite3.tbd */,
+				5250E0811C419CF6000F0BDC /* libz.tbd */,
+				CDAE556A1CB9D872001C9E48 /* libGoogleAnalyticsServices.a */,
+				CDAE556E1CB9D8DD001C9E48 /* GAI.h */,
+				CDAE556F1CB9D8DD001C9E48 /* GAIDictionaryBuilder.h */,
+				CDAE55701CB9D8DD001C9E48 /* GAIEcommerceFields.h */,
+				CDAE55711CB9D8DD001C9E48 /* GAIEcommerceProduct.h */,
+				CDAE55721CB9D8DD001C9E48 /* GAIEcommerceProductAction.h */,
+				CDAE55731CB9D8DD001C9E48 /* GAIEcommercePromotion.h */,
+				CDAE55741CB9D8DD001C9E48 /* GAIFields.h */,
+				CDAE55751CB9D8DD001C9E48 /* GAILogger.h */,
+				CDAE55761CB9D8DD001C9E48 /* GAITrackedViewController.h */,
+				CDAE55771CB9D8DD001C9E48 /* GAITracker.h */,
+				5250E0751C419B92000F0BDC /* Bolts.framework */,
+				5250E0761C419B92000F0BDC /* Parse.framework */,
+				5250E0771C419B92000F0BDC /* ParseFacebookUtils.framework */,
+				5250E0781C419B92000F0BDC /* ParseFacebookUtilsV4.framework */,
+				5250E0791C419B92000F0BDC /* ParseTwitterUtils.framework */,
+				5250E07A1C419B92000F0BDC /* ParseUI.framework */,
+				52B26A331BF81D0E00C95A1D /* SystemConfiguration.framework */,
+				52B26A2F1BF81CF900C95A1D /* Security.framework */,
+				52B26A2D1BF81CEF00C95A1D /* QuartzCore.framework */,
+				52B26A2B1BF81CE400C95A1D /* CoreLocation.framework */,
+				52B26A291BF81CDD00C95A1D /* CoreGraphics.framework */,
+				52B26A271BF81CD300C95A1D /* CFNetwork.framework */,
+				52B26A251BF81CCB00C95A1D /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		622C95761BC8A8B7003CB344 = {
+			isa = PBXGroup;
+			children = (
+				CDAE55781CB9DBD5001C9E48 /* CoreData.framework */,
+				77FE76FD1C659E3D00324C08 /* UIKit.framework */,
+				77FE76EC1C65988900324C08 /* UberRides.xcodeproj */,
+				622C95811BC8A8B7003CB344 /* ShareFish */,
+				622C95961BC8A8B8003CB344 /* ShareFishTests */,
+				622C95A11BC8A8B8003CB344 /* ShareFishUITests */,
+				622C95801BC8A8B7003CB344 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		622C95801BC8A8B7003CB344 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				622C957F1BC8A8B7003CB344 /* ShareFish.app */,
+				622C95931BC8A8B8003CB344 /* ShareFishTests.xctest */,
+				622C959E1BC8A8B8003CB344 /* ShareFishUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		622C95811BC8A8B7003CB344 /* ShareFish */ = {
+			isa = PBXGroup;
+			children = (
+				F09B9D241C66DEC2005FC3CC /* Main.storyboard */,
+				5250E08F1C435A21000F0BDC /* Bridging-Header.h */,
+				5250E0741C419B40000F0BDC /* Frameworks */,
+				622C95821BC8A8B7003CB344 /* AppDelegate.swift */,
+				F09DDEC11C4AD50B00B41431 /* ShareFishPin.swift */,
+				F09DDEBF1C4AD4BF00B41431 /* MapViewController.swift */,
+				5250E0851C41A060000F0BDC /* Assets.xcassets */,
+				622C958B1BC8A8B8003CB344 /* LaunchScreen.storyboard */,
+				622C958E1BC8A8B8003CB344 /* Info.plist */,
+				526D02871C5BCCF900D8BC02 /* LoginViewController.swift */,
+				5277CD2B1C6547270010BA23 /* SignUpPg1ViewController.swift */,
+				5277CD2D1C6548F50010BA23 /* SignUpPg2ViewController.swift */,
+				526D02891C5BD1DF00D8BC02 /* SignUpViewController.swift */,
+				526999441C5C0C1A00C9C95E /* NearMeListViewController.swift */,
+				52D6CB801C65364700C90D2A /* SignUpChoiceViewController.swift */,
+				771ECEB91C65ABAE009505E4 /* SpecialsViewController.swift */,
+				771ECEBB1C65ABCA009505E4 /* SpecialsCell.swift */,
+				52F7A7FA1C66EDCC008EC124 /* NearMeCell.swift */,
+				524509C11C6C55DA0072ACDB /* ChooseCollegeViewController.swift */,
+				524D6ABC1CA6DFDD003CFD74 /* MerchantMainViewController.swift */,
+				524D6AC31CA6F9C3003CFD74 /* MerchantSpecialCell.swift */,
+				5243CEBC1CA9D30C00DED4B7 /* MerchantThirdCell.swift */,
+				5243CEBF1CA9D31D00DED4B7 /* MerchantFourthCell.swift */,
+				5243CEC11CA9D33500DED4B7 /* MerchantFifthCell.swift */,
+				5286881C1CEBFB8900CA87A0 /* MerchantSixthCell.swift */,
+				52654B021D1F3139006EC394 /* NearMeFreeCell.swift */,
+				5238550B1D22AA9B00CA1BE6 /* RequestDemCell.swift */,
+			);
+			path = ShareFish;
+			sourceTree = "<group>";
+		};
+		622C95961BC8A8B8003CB344 /* ShareFishTests */ = {
+			isa = PBXGroup;
+			children = (
+				622C95971BC8A8B8003CB344 /* ShareFishTests.swift */,
+				622C95991BC8A8B8003CB344 /* Info.plist */,
+			);
+			path = ShareFishTests;
+			sourceTree = "<group>";
+		};
+		622C95A11BC8A8B8003CB344 /* ShareFishUITests */ = {
+			isa = PBXGroup;
+			children = (
+				622C95A21BC8A8B8003CB344 /* ShareFishUITests.swift */,
+				622C95A41BC8A8B8003CB344 /* Info.plist */,
+			);
+			path = ShareFishUITests;
+			sourceTree = "<group>";
+		};
+		77FE76ED1C65988900324C08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77FE76F21C65988A00324C08 /* UberRides.framework */,
+				77FE76F41C65988A00324C08 /* UberRidesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		622C957E1BC8A8B7003CB344 /* ShareFish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 622C95A71BC8A8B8003CB344 /* Build configuration list for PBXNativeTarget "ShareFish" */;
+			buildPhases = (
+				622C957B1BC8A8B7003CB344 /* Sources */,
+				622C957C1BC8A8B7003CB344 /* Frameworks */,
+				622C957D1BC8A8B7003CB344 /* Resources */,
+				77FE76FC1C6598AB00324C08 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77FE76F61C65989300324C08 /* PBXTargetDependency */,
+				77FE76FB1C6598AA00324C08 /* PBXTargetDependency */,
+			);
+			name = ShareFish;
+			productName = ShareFish;
+			productReference = 622C957F1BC8A8B7003CB344 /* ShareFish.app */;
+			productType = "com.apple.product-type.application";
+		};
+		622C95921BC8A8B8003CB344 /* ShareFishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 622C95AA1BC8A8B8003CB344 /* Build configuration list for PBXNativeTarget "ShareFishTests" */;
+			buildPhases = (
+				622C958F1BC8A8B8003CB344 /* Sources */,
+				622C95901BC8A8B8003CB344 /* Frameworks */,
+				622C95911BC8A8B8003CB344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				622C95951BC8A8B8003CB344 /* PBXTargetDependency */,
+			);
+			name = ShareFishTests;
+			productName = ShareFishTests;
+			productReference = 622C95931BC8A8B8003CB344 /* ShareFishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		622C959D1BC8A8B8003CB344 /* ShareFishUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 622C95AD1BC8A8B8003CB344 /* Build configuration list for PBXNativeTarget "ShareFishUITests" */;
+			buildPhases = (
+				622C959A1BC8A8B8003CB344 /* Sources */,
+				622C959B1BC8A8B8003CB344 /* Frameworks */,
+				622C959C1BC8A8B8003CB344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				622C95A01BC8A8B8003CB344 /* PBXTargetDependency */,
+			);
+			name = ShareFishUITests;
+			productName = ShareFishUITests;
+			productReference = 622C959E1BC8A8B8003CB344 /* ShareFishUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		622C95771BC8A8B7003CB344 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "ShareFish LLC";
+				TargetAttributes = {
+					622C957E1BC8A8B7003CB344 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 257H5U52XH;
+						LastSwiftMigration = 0830;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+					622C95921BC8A8B8003CB344 = {
+						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 0830;
+						TestTargetID = 622C957E1BC8A8B7003CB344;
+					};
+					622C959D1BC8A8B8003CB344 = {
+						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 0830;
+						TestTargetID = 622C957E1BC8A8B7003CB344;
+					};
+				};
+			};
+			buildConfigurationList = 622C957A1BC8A8B7003CB344 /* Build configuration list for PBXProject "ShareFish" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 622C95761BC8A8B7003CB344;
+			productRefGroup = 622C95801BC8A8B7003CB344 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 77FE76ED1C65988900324C08 /* Products */;
+					ProjectRef = 77FE76EC1C65988900324C08 /* UberRides.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				622C957E1BC8A8B7003CB344 /* ShareFish */,
+				622C95921BC8A8B8003CB344 /* ShareFishTests */,
+				622C959D1BC8A8B8003CB344 /* ShareFishUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		77FE76F21C65988A00324C08 /* UberRides.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UberRides.framework;
+			remoteRef = 77FE76F11C65988A00324C08 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		77FE76F41C65988A00324C08 /* UberRidesTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UberRidesTests.xctest;
+			remoteRef = 77FE76F31C65988A00324C08 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		622C957D1BC8A8B7003CB344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09B9D251C66DEC2005FC3CC /* Main.storyboard in Resources */,
+				622C958D1BC8A8B8003CB344 /* LaunchScreen.storyboard in Resources */,
+				5250E0861C41A060000F0BDC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		622C95911BC8A8B8003CB344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		622C959C1BC8A8B8003CB344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		622C957B1BC8A8B7003CB344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09DDEC01C4AD4BF00B41431 /* MapViewController.swift in Sources */,
+				5277CD2E1C6548F50010BA23 /* SignUpPg2ViewController.swift in Sources */,
+				52D6CB811C65364700C90D2A /* SignUpChoiceViewController.swift in Sources */,
+				526D02881C5BCCF900D8BC02 /* LoginViewController.swift in Sources */,
+				524D6AC41CA6F9C3003CFD74 /* MerchantSpecialCell.swift in Sources */,
+				771ECEBA1C65ABAE009505E4 /* SpecialsViewController.swift in Sources */,
+				5243CEBD1CA9D30C00DED4B7 /* MerchantThirdCell.swift in Sources */,
+				526999451C5C0C1B00C9C95E /* NearMeListViewController.swift in Sources */,
+				622C95831BC8A8B7003CB344 /* AppDelegate.swift in Sources */,
+				526D028A1C5BD1DF00D8BC02 /* SignUpViewController.swift in Sources */,
+				5243CEC01CA9D31D00DED4B7 /* MerchantFourthCell.swift in Sources */,
+				5277CD2C1C6547270010BA23 /* SignUpPg1ViewController.swift in Sources */,
+				524509C21C6C55DA0072ACDB /* ChooseCollegeViewController.swift in Sources */,
+				52F7A7FB1C66EDCC008EC124 /* NearMeCell.swift in Sources */,
+				5286881D1CEBFB8900CA87A0 /* MerchantSixthCell.swift in Sources */,
+				524D6ABD1CA6DFDD003CFD74 /* MerchantMainViewController.swift in Sources */,
+				5238550C1D22AA9B00CA1BE6 /* RequestDemCell.swift in Sources */,
+				771ECEBC1C65ABCA009505E4 /* SpecialsCell.swift in Sources */,
+				5243CEC21CA9D33500DED4B7 /* MerchantFifthCell.swift in Sources */,
+				52654B031D1F3139006EC394 /* NearMeFreeCell.swift in Sources */,
+				F09DDEC21C4AD50B00B41431 /* ShareFishPin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		622C958F1BC8A8B8003CB344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				622C95981BC8A8B8003CB344 /* ShareFishTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		622C959A1BC8A8B8003CB344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				622C95A31BC8A8B8003CB344 /* ShareFishUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		622C95951BC8A8B8003CB344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 622C957E1BC8A8B7003CB344 /* ShareFish */;
+			targetProxy = 622C95941BC8A8B8003CB344 /* PBXContainerItemProxy */;
+		};
+		622C95A01BC8A8B8003CB344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 622C957E1BC8A8B7003CB344 /* ShareFish */;
+			targetProxy = 622C959F1BC8A8B8003CB344 /* PBXContainerItemProxy */;
+		};
+		77FE76F61C65989300324C08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UberRides;
+			targetProxy = 77FE76F51C65989300324C08 /* PBXContainerItemProxy */;
+		};
+		77FE76FB1C6598AA00324C08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UberRides;
+			targetProxy = 77FE76FA1C6598AA00324C08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		622C958B1BC8A8B8003CB344 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				622C958C1BC8A8B8003CB344 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		622C95A51BC8A8B8003CB344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		622C95A61BC8A8B8003CB344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		622C95A81BC8A8B8003CB344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ShareFish",
+				);
+				INFOPLIST_FILE = ShareFish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShareFish",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShareFish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sharefish/Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		622C95A91BC8A8B8003CB344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ShareFish",
+				);
+				INFOPLIST_FILE = ShareFish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShareFish",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShareFish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sharefish/Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		622C95AB1BC8A8B8003CB344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShareFishTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShareFish",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharefishapp.ShareFishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "";
+			};
+			name = Debug;
+		};
+		622C95AC1BC8A8B8003CB344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShareFishTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShareFish",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharefishapp.ShareFishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "";
+			};
+			name = Release;
+		};
+		622C95AE1BC8A8B8003CB344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShareFishUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShareFish",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharefishapp.ShareFishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ShareFish;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		622C95AF1BC8A8B8003CB344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShareFishUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShareFish",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharefishapp.ShareFishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ShareFish;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		622C957A1BC8A8B7003CB344 /* Build configuration list for PBXProject "ShareFish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				622C95A51BC8A8B8003CB344 /* Debug */,
+				622C95A61BC8A8B8003CB344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		622C95A71BC8A8B8003CB344 /* Build configuration list for PBXNativeTarget "ShareFish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				622C95A81BC8A8B8003CB344 /* Debug */,
+				622C95A91BC8A8B8003CB344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		622C95AA1BC8A8B8003CB344 /* Build configuration list for PBXNativeTarget "ShareFishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				622C95AB1BC8A8B8003CB344 /* Debug */,
+				622C95AC1BC8A8B8003CB344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		622C95AD1BC8A8B8003CB344 /* Build configuration list for PBXNativeTarget "ShareFishUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				622C95AE1BC8A8B8003CB344 /* Debug */,
+				622C95AF1BC8A8B8003CB344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 622C95771BC8A8B7003CB344 /* Project object */;
+}
